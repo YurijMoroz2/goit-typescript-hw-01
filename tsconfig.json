@@ -2,7 +2,8 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist",
-    "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
+    "baseUrl": "./src",
+    
 
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
@@ -18,5 +19,5 @@
     "target": "es2019",
     "sourceMap": true
   },
-  "include": ["**/*.ts"]
+  "include": ["src**/*.ts"]
 }

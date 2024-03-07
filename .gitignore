@@ -107,3 +107,12 @@ typings/
 
 # TernJS port file
 .tern-port
+
+
+в мене отака структура файлів  і папок в кореневій папці проекту: 
+в папці dist такі файли a.js, a.js.map,i.js, i.js.map;
+в папці src такі файли a.ts, i.ts;
+папка index.html;
+файл tsconfig.json;
+package.json;
+у файлі tsconfig.json є властивість "baseUrl": "./",як її заповнити для даного проекту
